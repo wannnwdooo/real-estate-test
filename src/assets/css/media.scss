@@ -1,0 +1,41 @@
+@mixin ltSmallPhone {
+  @media (max-width: 460px) {
+    @content;
+  }
+}
+
+@mixin ltPhone {
+  @media (max-width: 640px) {
+    @content;
+  }
+}
+
+@mixin ltSmallTablet {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin ltBigTablet {
+  @media (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin ltDesktop {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin ltMidDesktop {
+  @media (max-width: 1400px) {
+    @content;
+  }
+}
+
+@mixin ltBigDesktop {
+  @media (max-width: 1800px) {
+    @content;
+  }
+}
